@@ -15,7 +15,7 @@ where:<br>
 Δλ = (longitude of second corrdinate) - (longitude of second coordinate)<br>
 
 Then it uses the formula from <a href="https://www.movable-type.co.uk/scripts/latlong.html">this site</a>:<br>
-c = 2 ⋅ atan2( √a, √(1−a) )<br>
-d = R ⋅ c
+c = 2 * atan2( √a, √(1−a) )<br>
+d = R * c
 
 d is the distance that this function returns.
